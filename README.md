@@ -1,7 +1,6 @@
 # License Plate De-identification (Capstone Project)
 
-🚘 YOLOv5, ResNet18, AdaIN을 활용한 차량 번호판 비식별화 딥러닝 시스템입니다.  
-📚 아주대학교 전자공학과 캡스톤 디자인 프로젝트 결과물입니다.
+🚘 YOLOv5, ResNet18, AdaIN을 활용한 차량 번호판 비식별화 시스템입니다.  
 
 ## 🧠 주요 기술 스택
 - Python, PyTorch, OpenCV
@@ -23,4 +22,4 @@
 
 | 입력 이미지 | 비식별화 결과 |
 |-------------|----------------|
-| ![](results/before.jpg) | ![](results/after.jpg) |
+| ![](results/before.png) | ![](results/after.png) |

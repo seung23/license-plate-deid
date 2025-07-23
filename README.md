@@ -7,8 +7,8 @@
 - YOLOv5: 번호판 탐지
 - ResNet18: 꼭짓점 회귀
 - AdaIN: 스타일 전이
-- 
-## 📁 파일 구성
+
+## 📁 파일 구성 (추가예정)
 - `main_pipeline.ipynb`: 전체 파이프라인 테스트용
 - `results/`: 비식별화 전후 비교 이미지
 - `test_inputs/`: 테스트용 입력 이미지

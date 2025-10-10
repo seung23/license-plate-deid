@@ -1,6 +1,6 @@
 # License Plate De-identification
 
-🚘 YOLOv5, ResNet18, AdaIN을 활용한 차량 번호판 비식별화 시스템입니다.  
+YOLOv5, ResNet18, AdaIN을 활용한 차량 번호판 비식별화 시스템
 
 ## 🧠 주요 기술 스택
 - Python, PyTorch, OpenCV

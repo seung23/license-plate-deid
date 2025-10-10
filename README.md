@@ -1,4 +1,4 @@
-# License Plate De-identification (Capstone Project)
+# License Plate De-identification
 
 🚘 YOLOv5, ResNet18, AdaIN을 활용한 차량 번호판 비식별화 시스템입니다.  
 

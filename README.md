@@ -1,4 +1,4 @@
-# License Plate De-identification
+# 딥러닝 기반 가상 차량 번호판 합성을 통한 개인정보 보호 및 이미지 데이터셋 확보
 
 YOLOv5, ResNet18, AdaIN을 활용한 차량 번호판 비식별화 시스템
 

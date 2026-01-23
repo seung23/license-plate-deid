@@ -38,8 +38,8 @@
 
 | 입력 이미지 | 비식별화 결과 |
 |-------------|----------------|
-| ![](results/before.jpg) | ![](results/after.jpg) |
-| ![](results/before.png) | ![](results/after.png) |
+| ![](results/before1.jpg) | ![](results/after.jpg) |
+| ![](results/before1.png) | ![](results/after.png) |
 
 ---
 

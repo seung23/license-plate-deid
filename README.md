@@ -36,7 +36,7 @@
 ### 시각적 지각 유사도 (LPIPS)
 단순 픽셀 오차가 아닌, 인간의 시각적 인지와 상관성이 높은 **LPIPS(Learned Perceptual Image Patch Similarity)** 지표를 통해 자연스러움을 정량적으로 평가했습니다. 
 
-| 원본 입력 | 결과 |
+| 입력 | 결과 |
 | :---: | :---: |
 | ![](results/before.png) | ![](results/after.png) |
 

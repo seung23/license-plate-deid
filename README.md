@@ -27,14 +27,14 @@
 
 ## 📈 실험 결과 (Experimental Results)
 
-### 시각적 지각 유사도 (LPIPS) 평가 
-단순 픽셀 오차가 아닌, 인간의 시각적 인지와 상관성이 높은 **LPIPS(Learned Perceptual Image Patch Similarity)** 지표를 통해 자연스러움을 정량적으로 평가했습니다. 
-
 | 평가 단계 | 주요 지표 | 결과 수치 | 비고 |
 | :--- | :--- | :--- | :--- |
-| **Detection** | mAP@0.5 | **0.995** | 사실상 완벽한 탐지 성능|
-| **Regression** | Mean IoU | **0.9381** | 정밀한 영역 보정  |
-| **Synthesis** | **LPIPS** | **0.0829** | 시각적 자연스러움 확보 (목표 0.1 미만) |
+| **Detection** | mAP@0.5 | **0.995** | 
+| **Regression** | Mean IoU | **0.9381** |
+| **Synthesis** | **LPIPS** | **0.0829** |
+
+### 시각적 지각 유사도 (LPIPS)
+단순 픽셀 오차가 아닌, 인간의 시각적 인지와 상관성이 높은 **LPIPS(Learned Perceptual Image Patch Similarity)** 지표를 통해 자연스러움을 정량적으로 평가했습니다. 
 
 ---
 

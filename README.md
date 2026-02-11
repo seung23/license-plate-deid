@@ -49,8 +49,9 @@
 | <img src="https://github.com/user-attachments/assets/b3c71cef-743b-4d5d-8e13-4bc6f307c266" width="300" /> | <img src="https://github.com/user-attachments/assets/e4032856-37d3-45e7-bb41-57ba4f34d87c" width="300" /> |
 | <img src="https://github.com/user-attachments/assets/9c013b9d-a227-4c55-88f1-fc876e812045" width="300" /> | <img src="https://github.com/user-attachments/assets/bb520f10-4965-4d59-b513-4fe9b54c3680" width="300" /> |
 
-
 **실제로는 보호되지 않은 원본 사진을 넣었을 때의 결과입니다.**
+
+</div>
 
 ---
 

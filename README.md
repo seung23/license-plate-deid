@@ -8,7 +8,9 @@
 ## 🏗️ 시스템 파이프라인 (System Pipeline)
 세 가지 핵심 모델이 유기적으로 연결된 다단계 파이프라인으로 구성됩니다. 
 
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/d3437354-431c-42ca-9d7d-0eb9a5d595ce" />
+<div align="center">
+  <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/d3437354-431c-42ca-9d7d-0eb9a5d595ce" />
+</div>
 
 
 ### 1. 번호판 영역 탐지 (Detection) 

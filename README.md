@@ -8,15 +8,21 @@
 ## 🏗️ 시스템 파이프라인 (System Pipeline)
 세 가지 핵심 모델이 유기적으로 연결된 다단계 파이프라인으로 구성됩니다. 
 
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/d3437354-431c-42ca-9d7d-0eb9a5d595ce" />
+
+
 ### 1. 번호판 영역 탐지 (Detection) 
 * **Model**: YOLOv5s (Small) 
 * **Dataset**: CCPD(4,000장) 및 직접 수집한 한국 번호판(571장) 혼합 학습 
-* **Performance**: **mAP@0.5 기준 0.995** 달성 
+* **Performance**: **mAP@0.5 기준 0.995** 달성
 
 ### 2. 꼭짓점 회귀 및 원근 보정 (Regression & Perspective Transform) 
 * **Model**: ResNet18 기반 Regression Model 
 * **Logic**: 번호판의 네 꼭짓점 좌표를 예측하여 3차원 원근 변환 수행 
 * **Performance**: **Mean IoU 0.9381**, **MED 0.0185** (좌표 오차 2% 이내) 
+
+<img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/2e98ad89-70ef-4e6e-9422-dfc0b2968759" />
+
 
 ### 3. 스타일 전이 및 색상 보정 (Synthesis & Correction) 
 * **Model**: AdaIN (Adaptive Instance Normalization) 
@@ -36,9 +42,13 @@
 ### 시각적 지각 유사도 (LPIPS)
 단순 픽셀 오차가 아닌, 인간의 시각적 인지와 상관성이 높은 **LPIPS(Learned Perceptual Image Patch Similarity)** 지표를 통해 자연스러움을 정량적으로 평가했습니다. 
 
-| 입력 | 결과 |
+<div align="center">
+  
+| 입력 (Before) | 출력 (After) |
 | :---: | :---: |
-| ![](results/before.png) | ![](results/after.png) |
+| <img src="https://github.com/user-attachments/assets/b3c71cef-743b-4d5d-8e13-4bc6f307c266" width="300" /> | <img src="https://github.com/user-attachments/assets/e4032856-37d3-45e7-bb41-57ba4f34d87c" width="300" /> |
+| <img src="https://github.com/user-attachments/assets/9c013b9d-a227-4c55-88f1-fc876e812045" width="300" /> | <img src="https://github.com/user-attachments/assets/bb520f10-4965-4d59-b513-4fe9b54c3680" width="300" /> |
+
 
 **실제로는 보호되지 않은 원본 사진을 넣었을 때의 결과입니다.**
 
